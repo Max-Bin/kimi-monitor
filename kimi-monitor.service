@@ -1,0 +1,15 @@
+[Unit]
+Description=Kimi API Usage Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/kimi-monitor
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/home/ubuntu/miniforge3/bin/python3 /home/ubuntu/kimi-monitor/monitor.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

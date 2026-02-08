@@ -1,0 +1,11 @@
+{
+  "MOONSHOT_API_KEY": "your_moonshot_api_key_here",
+  "SMTP_SERVER": "smtp.gmail.com",
+  "SMTP_PORT": 587,
+  "SMTP_USER": "your_email@gmail.com",
+  "SMTP_PASSWORD": "your_app_password",
+  "NOTIFY_EMAIL": "your_notify_email@example.com",
+  "CHECK_INTERVAL_MINUTES": 10,
+  "STATE_FILE": "/home/ubuntu/kimi-monitor/state.json",
+  "LOG_FILE": "/home/ubuntu/kimi-monitor/monitor.log"
+}

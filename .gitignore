@@ -1,0 +1,18 @@
+# Local secrets and runtime data
+config.json
+*.env
+.env
+
+# Runtime artifacts
+monitor.log
+monitor.pid
+state.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor/system files
+*.swp
+*.swo
+.DS_Store

@@ -1,0 +1,10 @@
+{
+  "SMTP_SERVER": "smtp.sendgrid.net",
+  "SMTP_PORT": 587,
+  "SMTP_USER": "apikey",
+  "SMTP_PASSWORD": "SG.xxxxxxxx.your_sendgrid_api_key_here",
+  "NOTIFY_EMAIL": "your_notify_email@example.com",
+  "CHECK_INTERVAL_MINUTES": 10,
+  "STATE_FILE": "/home/ubuntu/kimi-monitor/state.json",
+  "LOG_FILE": "/home/ubuntu/kimi-monitor/monitor.log"
+}
